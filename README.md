@@ -1,4 +1,4 @@
-## Desafio para Backend Software Engineer 
+## Desafio para Backend Software Engineer
 
 Você está revisando as decisões de design de um software que processa Pedidos online. Por estes pedidos, são realizados pagamentos que recebem tratamentos a depender as situações específicas de cada um como segue:
 
@@ -21,21 +21,16 @@ __O que está sob avaliação?__
 
 Sua capacidade de analisar, projetar e codificar uma solução guiando-se com **Design Orientado a Objetos** e **Princípios de Orientação a Objetos**.
 
-Sinta-se à vontade para modificar/refatorar o arquivo `bootstrap.rb` caso julgue necessário.
-
-Por favor, inclua suas considerações da atividade em um arquivo de texto ou markdown.
-
-__O que não vale?__
- - Frameworks :] (aliás, nem precisa)
- - Metaprogramação
- 
 __Qual linguagem?__
 Ruby.
 
-__Tempo__
-Estima-se 1h30 para este desafio, entretanto não há um limite.
+###  Resultado do Desafio.
 
-__Apresentação__
-  - Código
-  - Explicação da solução (em arquivo separado em Markdown/Plain Text)
+A soluçao foi definida tendo como premissa a simplicidade de implementaçao de novos tipos de produtos e os correspondentes processos / açoes.
+
+Para isto foi implementa uma nova classe (Processor) contendo todos os metodos relacionados as açoes / tipos de produtos, sendo que o relacionamento é feito pelo tipo do produto (string).
+
+Ao iniciar sua execuçao o sistema identifica todas as instancias da Processor assoaciadas aos tipos de produtos e cria o array que sera vinculado as acoes.
+
+Ao processar os pagamentos, o sistema executa as açoes do Processor de acordo com o tipo do produto.
 
