@@ -28,9 +28,7 @@ Ruby.
 
 A soluçao foi definida tendo como premissa a simplicidade de implementaçao de novos tipos de produtos e os correspondentes processos / açoes.
 
-Para isto foi implementa uma nova classe (Processor) contendo todos os metodos relacionados as açoes / tipos de produtos, sendo que o relacionamento é feito pelo tipo do produto (string).
+Para isto foi implementada uma nova classe (Processor) contendo todos os metodos relacionados as açoes / tipos de produtos, sendo que os nomes das instancias correspondem aos tipos de produtos.
 
-Ao iniciar sua execuçao o sistema identifica todas as instancias da Processor assoaciadas aos tipos de produtos e cria o array que sera vinculado as acoes.
-
-Ao processar os pagamentos, o sistema executa as açoes do Processor de acordo com o tipo do produto.
+Ao iniciar sua execuçao o sistema identifica todas as instancias da classe Processor e cria o array que sera utilizado para vincular os tipos com as acoes e ao processar os pagamentos, o sistema executa as açoes do Processor de acordo com o tipo do produto definido.
 
